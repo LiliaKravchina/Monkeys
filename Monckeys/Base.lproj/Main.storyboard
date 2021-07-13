@@ -33,15 +33,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fzP-im-fsD">
+                                <rect key="frame" x="0.0" y="497" width="414" height="399"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="5Zv-H1-xRM">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Zv-H1-xRM" id="9we-JD-LxH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="eWp-IQ-gAi"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JR1-PH-xTT"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="fzP-im-fsD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8DB-h9-8v3"/>
                             <constraint firstItem="skv-zh-P96" firstAttribute="top" secondItem="Nbh-iX-lmE" secondAttribute="bottom" constant="20" id="FGc-MJ-Mkt"/>
                             <constraint firstItem="JhF-qV-zu1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="HLd-9M-fyZ"/>
+                            <constraint firstItem="fzP-im-fsD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QoY-gO-H8X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="skv-zh-P96" secondAttribute="trailing" constant="20" id="WYx-p5-079"/>
+                            <constraint firstAttribute="bottom" secondItem="fzP-im-fsD" secondAttribute="bottom" id="bzY-ub-TRU"/>
                             <constraint firstItem="JhF-qV-zu1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cQH-i7-IrO"/>
                             <constraint firstItem="skv-zh-P96" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dd4-ac-2vk"/>
+                            <constraint firstItem="fzP-im-fsD" firstAttribute="top" secondItem="skv-zh-P96" secondAttribute="bottom" constant="35" id="hq3-Qe-v9L"/>
                             <constraint firstItem="Nbh-iX-lmE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="343" id="kkm-UX-gOA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JhF-qV-zu1" secondAttribute="trailing" constant="10" id="mOk-7e-uv0"/>
                             <constraint firstItem="Nbh-iX-lmE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="toh-2e-ETN"/>
@@ -50,6 +72,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Table" destination="fzP-im-fsD" id="LCB-6v-Njc"/>
                         <outlet property="selectedMonkeyTextF" destination="skv-zh-P96" id="3GQ-LQ-nVB"/>
                     </connections>
                 </viewController>
