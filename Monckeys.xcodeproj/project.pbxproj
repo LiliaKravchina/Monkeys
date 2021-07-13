@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0488E18C269DF72400E79622 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E18B269DF72400E79622 /* Parser.swift */; };
+		0488E1A7269DFAFF00E79622 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 0488E1A6269DFAFF00E79622 /* JSON.json */; };
 		810EEB762682424000508D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB752682424000508D39 /* AppDelegate.swift */; };
 		810EEB782682424000508D39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB772682424000508D39 /* SceneDelegate.swift */; };
 		810EEB7A2682424000508D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB792682424000508D39 /* ViewController.swift */; };
@@ -15,8 +17,6 @@
 		810EEB822682424200508D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810EEB802682424200508D39 /* LaunchScreen.storyboard */; };
 		810EEB8D2682424200508D39 /* MonckeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB8C2682424200508D39 /* MonckeysTests.swift */; };
 		810EEB982682424200508D39 /* MonckeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB972682424200508D39 /* MonckeysUITests.swift */; };
-		810EEBA92682447000508D39 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 810EEBA82682447000508D39 /* JSON.json */; };
-		810EEBAE268244F200508D39 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEBAD268244F200508D39 /* Parser.swift */; };
 		810EEBB32682454800508D39 /* Monkeys .swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEBB22682454800508D39 /* Monkeys .swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0488E18B269DF72400E79622 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		0488E1A6269DFAFF00E79622 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JSON.json; path = ../../../../var/folders/0_/st3g6bwn0k56fbmkbzqqkvyc0000gn/T/ru.keepcoder.Telegram/JSON.json; sourceTree = "<group>"; };
 		810EEB722682424000508D39 /* Monckeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monckeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810EEB752682424000508D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		810EEB772682424000508D39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		810EEB932682424200508D39 /* MonckeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonckeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810EEB972682424200508D39 /* MonckeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonckeysUITests.swift; sourceTree = "<group>"; };
 		810EEB992682424200508D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		810EEBA82682447000508D39 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSON.json; sourceTree = "<group>"; };
-		810EEBAD268244F200508D39 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = ../../../../Downloads/Parser.swift; sourceTree = "<group>"; };
 		810EEBB22682454800508D39 /* Monkeys .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Monkeys .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,6 @@
 		810EEB692682424000508D39 = {
 			isa = PBXGroup;
 			children = (
-				810EEBA82682447000508D39 /* JSON.json */,
 				810EEB742682424000508D39 /* Monckeys */,
 				810EEB8B2682424200508D39 /* MonckeysTests */,
 				810EEB962682424200508D39 /* MonckeysUITests */,
@@ -106,7 +105,8 @@
 		810EEB742682424000508D39 /* Monckeys */ = {
 			isa = PBXGroup;
 			children = (
-				810EEBAD268244F200508D39 /* Parser.swift */,
+				0488E1A6269DFAFF00E79622 /* JSON.json */,
+				0488E18B269DF72400E79622 /* Parser.swift */,
 				810EEBB22682454800508D39 /* Monkeys .swift */,
 				810EEB7E2682424200508D39 /* Assets.xcassets */,
 				810EEB752682424000508D39 /* AppDelegate.swift */,
@@ -243,7 +243,7 @@
 				810EEB822682424200508D39 /* LaunchScreen.storyboard in Resources */,
 				810EEB7F2682424200508D39 /* Assets.xcassets in Resources */,
 				810EEB7D2682424000508D39 /* Main.storyboard in Resources */,
-				810EEBA92682447000508D39 /* JSON.json in Resources */,
+				0488E1A7269DFAFF00E79622 /* JSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				810EEBAE268244F200508D39 /* Parser.swift in Sources */,
 				810EEB7A2682424000508D39 /* ViewController.swift in Sources */,
+				0488E18C269DF72400E79622 /* Parser.swift in Sources */,
 				810EEBB32682454800508D39 /* Monkeys .swift in Sources */,
 				810EEB762682424000508D39 /* AppDelegate.swift in Sources */,
 				810EEB782682424000508D39 /* SceneDelegate.swift in Sources */,
