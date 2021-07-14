@@ -45,25 +45,23 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEs-zc-r1M">
-                                                    <rect key="frame" x="352" y="11" width="42" height="21.5"/>
+                                                    <rect key="frame" x="352" y="11.5" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemPurpleColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfT-RD-0H8">
-                                                    <rect key="frame" x="20" y="12" width="48" height="24.5"/>
+                                                    <rect key="frame" x="20" y="10" width="48" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" red="1" green="0.57455340399999999" blue="0.13130913559999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="QfT-RD-0H8" firstAttribute="top" secondItem="9we-JD-LxH" secondAttribute="top" constant="12" id="Q17-Qa-HVo"/>
-                                                <constraint firstAttribute="bottom" secondItem="QfT-RD-0H8" secondAttribute="bottom" constant="7" id="Z8M-De-Rr5"/>
-                                                <constraint firstItem="jEs-zc-r1M" firstAttribute="top" secondItem="9we-JD-LxH" secondAttribute="top" constant="11" id="muX-eW-UIK"/>
-                                                <constraint firstItem="QfT-RD-0H8" firstAttribute="leading" secondItem="9we-JD-LxH" secondAttribute="leading" constant="20" symbolic="YES" id="oT3-H1-CwZ"/>
-                                                <constraint firstAttribute="trailing" secondItem="jEs-zc-r1M" secondAttribute="trailing" constant="20" symbolic="YES" id="t6y-3J-9tt"/>
-                                                <constraint firstAttribute="bottom" secondItem="jEs-zc-r1M" secondAttribute="bottom" constant="11" id="zPu-xW-ggX"/>
+                                                <constraint firstItem="QfT-RD-0H8" firstAttribute="centerY" secondItem="9we-JD-LxH" secondAttribute="centerY" id="Acb-Dd-Zr4"/>
+                                                <constraint firstAttribute="trailing" secondItem="QfT-RD-0H8" secondAttribute="trailing" constant="346" id="P8h-TG-Vn0"/>
+                                                <constraint firstItem="jEs-zc-r1M" firstAttribute="centerY" secondItem="9we-JD-LxH" secondAttribute="centerY" id="hvm-kX-PPc"/>
+                                                <constraint firstItem="jEs-zc-r1M" firstAttribute="leading" secondItem="9we-JD-LxH" secondAttribute="leading" constant="352" id="jWb-93-F5c"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
