@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         selectedMonkeyTextF.inputAccessoryView = toolbar()
         
     }
-
+    
 }
 extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource
 {
@@ -68,12 +68,11 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource
             return monkeysList[row]
         default:
             return ""
+        }
     }
 }
-    
-}
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource{
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -82,12 +81,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let monkey = monkeysList[indexPath.row]
-            let cell:MonkewTableViewCell  = tableView.dequeueReusableCell(withIdentifier: "Cell") as?  MonkewTableViewCell ??
-                MonkewTableViewCell()
-            
+        let cell:MonkewTableViewCell  = tableView.dequeueReusableCell(withIdentifier: "Cell") as?  MonkewTableViewCell ??
+            MonkewTableViewCell()
+        
         cell.monkeyNameLable.text = monkey
         cell.monkeyCountryLable.text = "Африка"
-            return cell
+        return cell
     }
 }
 

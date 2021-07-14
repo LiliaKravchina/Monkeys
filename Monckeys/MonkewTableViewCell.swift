@@ -10,7 +10,6 @@ import UIKit
 class MonkewTableViewCell: UITableViewCell {
     @IBOutlet weak var monkeyNameLable: UILabel!
     @IBOutlet weak var monkeyCountryLable: UILabel!
-    
-    }
+}
 
 
