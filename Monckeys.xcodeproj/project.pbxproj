@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0488E18C269DF72400E79622 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E18B269DF72400E79622 /* Parser.swift */; };
 		0488E1A7269DFAFF00E79622 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 0488E1A6269DFAFF00E79622 /* JSON.json */; };
+		0488E1AF269F2A9400E79622 /* MonkewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E1AE269F2A9300E79622 /* MonkewTableViewCell.swift */; };
 		810EEB762682424000508D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB752682424000508D39 /* AppDelegate.swift */; };
 		810EEB782682424000508D39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB772682424000508D39 /* SceneDelegate.swift */; };
 		810EEB7A2682424000508D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810EEB792682424000508D39 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0488E18B269DF72400E79622 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		0488E1A6269DFAFF00E79622 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JSON.json; path = ../../../../var/folders/0_/st3g6bwn0k56fbmkbzqqkvyc0000gn/T/ru.keepcoder.Telegram/JSON.json; sourceTree = "<group>"; };
+		0488E1AE269F2A9300E79622 /* MonkewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkewTableViewCell.swift; sourceTree = "<group>"; };
 		810EEB722682424000508D39 /* Monckeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monckeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810EEB752682424000508D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		810EEB772682424000508D39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				810EEB772682424000508D39 /* SceneDelegate.swift */,
 				810EEB792682424000508D39 /* ViewController.swift */,
 				810EEB7B2682424000508D39 /* Main.storyboard */,
+				0488E1AE269F2A9300E79622 /* MonkewTableViewCell.swift */,
 				810EEB802682424200508D39 /* LaunchScreen.storyboard */,
 				810EEB832682424200508D39 /* Info.plist */,
 			);
@@ -270,6 +273,7 @@
 			files = (
 				810EEB7A2682424000508D39 /* ViewController.swift in Sources */,
 				0488E18C269DF72400E79622 /* Parser.swift in Sources */,
+				0488E1AF269F2A9400E79622 /* MonkewTableViewCell.swift in Sources */,
 				810EEBB32682454800508D39 /* Monkeys .swift in Sources */,
 				810EEB762682424000508D39 /* AppDelegate.swift in Sources */,
 				810EEB782682424000508D39 /* SceneDelegate.swift in Sources */,

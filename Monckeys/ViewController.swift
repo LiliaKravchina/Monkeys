@@ -82,7 +82,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let monkey = monkeysList[indexPath.row]
-            let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "Cell") ?? UITableViewCell()
+            let cell:MonkewTable  = tableView.dequeueReusableCell(withIdentifier: "Cell") ?? UITableViewCell()
             
             cell.textLabel?.text = monkey
             return cell
